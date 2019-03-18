@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-.font-robo {
-  font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+body{
+  font-family: "Roboto";
+
 }
 
-.font-poppins {
-  font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
-}
+
 
 
 .row {
@@ -49,6 +49,7 @@ html {
 * {
   padding: 0;
   margin: 0;
+  
 }
 
 *, *:before, *:after {
@@ -67,6 +68,7 @@ hr,
 fieldset, legend {
   margin: 0;
   padding: 0;
+  color:black;
 }
 
 
@@ -107,9 +109,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
+  color:black;
 }
 
 h1 {
+  color:black;
   font-size: 36px;
 }
 
@@ -144,7 +148,7 @@ h6 {
 
 .bg-gra-01 {
   
-  background: linear-gradient(135deg, #ff6600 , #4c00ff);
+  background: #fff;
   
 }
 
@@ -185,7 +189,7 @@ h6 {
 }
 
 .wrapper--w60 {
-  max-width: 60%;
+  max-width: 80%;
 }
 
 .wrapper--w680 {
@@ -219,12 +223,12 @@ h6 {
   border-radius: 20px;
 }
 
-.btn--green {
-  background:  #ff6600;
+.btn--orange {
+  background: #ff6600;
 }
 
-.btn--green:hover {
-  background: #4c00ff ;
+.btn--orange:hover {
+  background: #4c00ff;
 }
 
 
@@ -232,9 +236,7 @@ td.active {
   background-color: #2c6ed5;
 }
 
-input[type="date" i] {
-  padding: 14px;
-}
+x
 
 .table-condensed td, .table-condensed th {
   font-size: 14px;
@@ -266,7 +268,7 @@ input[type="date" i] {
 }
 
 .daterangepicker .table-condensed th select {
-  border: 1px solid #ccc;
+  border: 1px solid #000;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -291,7 +293,7 @@ input {
 .input-icon {
   position: absolute;
   font-size: 18px;
-  color: #ccc;
+  color: #000;
   right: 8px;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -305,39 +307,40 @@ input {
 .input-group {
   position: relative;
   margin-bottom: 33px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .input--style-3 {
   padding: 5px 0;
   font-size: 16px;
-  color: #ccc;
+  color: #000;
   background: transparent;
+  border-bottom:black;
+  
 }
 
 .input--style-3::-webkit-input-placeholder {
 
-  color: #ccc;
+  color: #000;
 }
 
 .input--style-3:-moz-placeholder {
 
-  color: #ccc;
+  color: #000;
   opacity: 1;
 }
 
 .input--style-3::-moz-placeholder {
 
-  color: #ccc;
+  color: #000;
   opacity: 1;
 }
 
 .input--style-3:-ms-input-placeholder {
-  color: #ccc;
+  color: #000;
 }
 
 .input--style-3:-ms-input-placeholder {
-  color: #ccc;
+  color: #000;
 }
 
 
@@ -360,7 +363,7 @@ input {
 .rs-select2 .select2-container .select2-selection--single .select2-selection__rendered {
   line-height: 36px;
   padding-left: 0;
-  color: #ccc;
+  color: #000;
   font-size: 16px;
   font-family: inherit;
 }
@@ -393,7 +396,7 @@ input {
   font-family: "Material-Design-Iconic-Font";
   content: '\f2f9';
   font-size: 18px;
-  color: #ccc;
+  color: #000;
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
@@ -413,17 +416,17 @@ input {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 1);
   -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-  border: 1px solid #e0e0e0;
+  border: 1px solid #000;
   margin-top: 5px;
   overflow: hidden;
 }
 
 .title {
-  font-size: 24px;
-  color: #fff;
+  font-size: 26px;
+  color: #000;
   font-weight: 400;
   margin-bottom: 36px;
 }
@@ -433,31 +436,24 @@ input {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  background: rgba(0, 0, 0, 0);
+  background: rgba(6, 149, 245, 0.5);
   width:100%;
 }
 
 .card-3 {
-  background:
+  background-color:white;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
-  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  
+  box-shadow: 5px 10px 20px 5px rgba(3, 141, 255, 0.2);
   width: 100%;
   display: table;
 }
-
-.card-3 .card-heading {
-  background: url("../images/bg-heading-03.png") center/cover no-repeat;
-  background-size: 100%;
-  background-position-x:26%;
-  display: table-cell;
-  width: 100%;
-  background-color:rgba(0, 0, 0, 0);
-  
+::placeholder{
+  color:black;
 }
+
 
 .card-3 .card-body {
   padding: 57px 65px;

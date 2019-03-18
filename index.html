@@ -14,6 +14,7 @@
 
     <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
     <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
     <link href="css/main.css" rel="stylesheet" media="all">
 </head>
@@ -22,10 +23,14 @@
     <div style="width:100%;"class="page-wrapper bg-gra-01 p-t-100 p-b-100 font-poppins">
         <div class="wrapper wrapper--w60">
             <div class="card card-3">
-                <div class="card-heading" style="color:white"></div>
                 <div class="card-body">
+                        <a href="https://www.traan.in" style="color:white;">
+                            <img src="images/Group 29.svg" style="align-content:center; height:15vh;width:15vh; ">
+                            <h2 style="font-family: roboto;">Traan.in</h2>
+                            </a>
+                            <br><br>
                     <h2 class="title">Registration Info For Volunteers</h2>
-                    <form method="POST">
+                    <form method="POST" >
                         <div class="input-group">
                             <input class="input--style-3" type="text" placeholder=" Name" name="Name">
                         </div>
@@ -47,7 +52,7 @@
                                 <div class="select-dropdown"></div>
                             </div>
                         </div>
-                      <h3 style="color:white;">Contact:</h3>
+                      <h3 style="color:black;">Contact:</h3>
                       <br>
                     
                         <div class="input-group">
@@ -62,7 +67,7 @@
                         <div class="input-group">
                             <input class="input--style-3" type="text" placeholder="Address" name="Address">
                         </div>
-                        <h3 style="color:white;">About:</h3>
+                        <h3 style="color:black;">About:</h3>
 <br>
                         <div class="input-group">
                             <input class="input--style-3" type="text" placeholder="Blood-group" name="bloodGroup">
@@ -81,7 +86,7 @@
                         
                         
                         
-                            <h3 style="color:white; font-size:23px;">Family member's Details:</h3>
+                            <h3 style="color:black; font-size:23px;">Family member's Details:</h3>
 <br>                        <div class="input-group">
                                 <input class="input--style-3" type="text" placeholder="Name" name="familyName">
                             </div>
@@ -93,9 +98,11 @@
                                     </div>
                                     
                                    
-                                    
+                                    <h4> Upload profile picture</h4>
+                                    <input type="file">
+                                  <br>
                         <div class="p-t-10"> 
-                            <button class="btn btn--pill btn--green" type="submit">Submit</button>
+                            <button class="btn btn--pill btn--orange" type="submit">Submit</button>
                         </div>
                         
                     </form>
